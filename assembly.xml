@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--======================================================-->
+<!--       Generated with  :   OpenIV Package Manager -->
+<!--       * Author  :   . -->
+<!--       * Version  :   1.2 -->
+<!--       * Release date  :   6/14/2021 -->
+<!--======================================================-->
+<package version="2.1" id="{aa1f2536-9b74-4a48-921c-bc51d27b2524}" target="Five">
+  <metadata>
+    <name>Weapons_All</name>
+    <version>
+      <major>1</major>
+      <minor>2</minor>
+    </version>
+    <author>
+      <displayName>.</displayName>
+    </author>
+    <description footerLink="AWD" footerLinkTitle="AWD"><![CDATA[AWDAWD
+]]></description>
+    <largeDescription footerLink="AWDAW" footerLinkTitle="AWD"><![CDATA[AWDAW
+]]></largeDescription>
+  </metadata>
+  <colors>
+    <headerBackground useBlackTextColor="false">$00AD4747</headerBackground>
+    <iconBackground>$00873636</iconBackground>
+  </colors>
+  <content>
+    <archive path="update\update.rpf" createIfNotExist="False" type="RPF7">
+      <xml path="common\data\ai\weaponcomponents.meta">
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_PUMPSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="2" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_SAWNOFFSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="3" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_BULLPUPSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="4" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_ASSAULTSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="6" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_HEAVYSHOTGUN_CLIP_03']/ClipSize">
+          <ClipSize value="4" />
+        </replace>
+		<replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_PISTOL_CLIP_01']/ClipSize">
+          <ClipSize value="7" />
+        </replace>
+		<replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_COMBATPISTOL_CLIP_01']/ClipSize">
+          <ClipSize value="5" />
+        </replace>
+		<replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_APPISTOL_CLIP_01']/ClipSize">
+          <ClipSize value="12" />
+        </replace>
+		<replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_MICROSMG_CLIP_01']/ClipSize">
+          <ClipSize value="34" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_COMBATMG_CLIP_01']/ClipSize">
+          <ClipSize value="49" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_MG_CLIP_01']/ClipSize">
+          <ClipSize value="45" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_PISTOL50_CLIP_01']/ClipSize">
+          <ClipSize value="5" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_GRENADELAUNCHER_CLIP_01']/ClipSize">
+          <ClipSize value="3" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_RPG_CLIP_01']/ClipSize">
+          <ClipSize value="2" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_SNIPERRIFLE_CLIP_01']/ClipSize">
+          <ClipSize value="2" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_HEAVYSNIPER_CLIP_01']/ClipSize">
+          <ClipSize value="1" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_CARBINERIFLE_CLIP_01']/ClipSize">
+          <ClipSize value="23" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_ADVANCEDRIFLE_CLIP_01']/ClipSize">
+		  <ClipSize value="25" />
+		</replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_SMG_CLIP_01']/ClipSize">
+          <ClipSize value="20" />
+        </replace>
+      </xml>
+	  <xml path="common\data\ai\weapons.meta">
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_MINIGUN']/AmmoMax100">
+          <AmmoMax100 value="375" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_SNIPER']/AmmoMax100">
+          <AmmoMax100 value="25" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_RIFLE']/AmmoMax100">
+          <AmmoMax100 value="120" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_PISTOL']/AmmoMax100">
+          <AmmoMax100 value="75" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_SHOTGUN']/AmmoMax100">
+          <AmmoMax100 value="27" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_STUNGUN']/AmmoMax100">
+          <AmmoMax100 value="3" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_FIREEXTINGUISHER']/AmmoMax100">
+          <AmmoMax100 value="7000" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_PETROLCAN']/AmmoMax100">
+          <AmmoMax100 value="8000" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_RPG']/AmmoMax100">
+          <AmmoMax100 value="7" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_GRENADE']/AmmoMax100">
+          <AmmoMax100 value="7" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_BALL']/AmmoMax100">
+          <AmmoMax100 value="32" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_STICKYBOMB']/AmmoMax100">
+          <AmmoMax100 value="38" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_FLARE']/AmmoMax100">
+          <AmmoMax100 value="8" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_MOLOTOV']/AmmoMax100">
+          <AmmoMax100 value="7" />
+        </replace>
+		<replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_TANK']/AmmoMax100"><!--ko biet la gi-->
+          <AmmoMax100 value="2" />
+        </replace>
+	  </xml>
+    </archive>
+    <archive path="update\x64\dlcpacks\mpheist4\dlc.rpf" createIfNotExist="False" type="RPF7">
+      <xml path="common\data\ai\weaponcomponents.meta">
+        <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_COMBATSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="3" />
+        </replace>
+		<replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_MILITARYRIFLE_CLIP_01']/ClipSize">
+          <ClipSize value="17" />
+        </replace>
+      </xml>
+    </archive>
+	<archive path="update\x64\dlcpacks\mpheist3\dlc.rpf" createIfNotExist="False" type="RPF7">
+      <xml path="common\data\ai\weaponcomponents.meta">
+	    <!-- <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_COMBATSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="3" />
+        </replace> -->
+	  </xml>
+    </archive>
+	<archive path="update\x64\dlcpacks\mpbiker\dlc.rpf" createIfNotExist="False" type="RPF7">
+      <xml path="common\data\ai\weaponcomponents.meta">
+        <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[1]/ClipSize">
+          <ClipSize value="3" />
+        </replace>
+      </xml>
+    </archive>
+  </content>
+</package>
