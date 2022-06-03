@@ -34,7 +34,7 @@
           <ClipSize value="3" />
         </replace>
         <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_BULLPUPSHOTGUN_CLIP_01']/ClipSize">
-          <ClipSize value="4" />
+          <ClipSize value="3" />
         </replace>
         <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_ASSAULTSHOTGUN_CLIP_01']/ClipSize">
           <ClipSize value="6" />
