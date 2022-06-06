@@ -3,7 +3,7 @@
 <!--       Generated with  :   OpenIV Package Manager -->
 <!--       * Author  :   . -->
 <!--       * Version  :   1.2 -->
-<!--       * Release date  :   03-Jun-22 -->
+<!--       * Release date  :   06-Jun-22 -->
 <!--======================================================-->
 <package version="2.1" id="{aa1f2536-9b74-4a48-921c-bc51d27b2524}" target="Five">
   <metadata>
@@ -64,7 +64,7 @@
           <ClipSize value="5" />
         </replace>
         <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_GRENADELAUNCHER_CLIP_01']/ClipSize">
-          <ClipSize value="3" />
+          <ClipSize value="2" />
         </replace>
         <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_RPG_CLIP_01']/ClipSize">
           <ClipSize value="2" />
@@ -83,6 +83,9 @@
         </replace>
         <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_SMG_CLIP_01']/ClipSize">
           <ClipSize value="20" />
+        </replace>
+        <replace xpath="/CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_ASSAULTRIFLE_CLIP_01']/ClipSize">
+          <ClipSize value="21" />
         </replace>
       </xml>
       <xml path="common\data\ai\weapons.meta">
@@ -130,6 +133,25 @@
         </replace>
         <replace xpath="/CWeaponInfoBlob/Infos/Item[1]/Infos/Item[Name='AMMO_TANK']/AmmoMax100">
           <AmmoMax100 value="2" />
+        </replace>
+      </xml>
+      <xml path="dlc_patch\mpgunrunning\common\data\ai\weaponcomponents.meta">
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_HEAVYSNIPER_MK2_CLIP_01']/ClipSize">
+          <ClipSize value="1" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_HEAVYSNIPER_MK2_CLIP_02']/ClipSize">
+          <ClipSize value="1" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_ASSAULTRIFLE_MK2_CLIP_01']/ClipSize">
+          <ClipSize value="21" />
+        </replace>
+      </xml>
+      <xml path="dlc_patch\mplts\common\data\ai\weaponcomponents.meta">
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_HEAVYSHOTGUN_CLIP_01']/ClipSize">
+          <ClipSize value="4" />
+        </replace>
+        <replace xpath="CWeaponComponentInfoBlob/Infos/Item[Name='COMPONENT_HEAVYSHOTGUN_CLIP_02']/ClipSize">
+          <ClipSize value="4" />
         </replace>
       </xml>
     </archive>
